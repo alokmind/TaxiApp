@@ -489,6 +489,125 @@
 }
 
 
+@media only screen and (max-width: 1024px) {
+    .info {
+        gap: 10px; 
+    }
+    
+    .book .box {
+        flex-direction: column;
 
+        .num {
+            margin-top: 30px;
+        }
+    }
+
+    .car-box .cars {
+        flex-direction: column;
+        align-items: center;
+
+        .txt-box1, .txt-box2, .txt-box3, .txt-box4, .txt-box5, .txt-box6 {
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .boxes {
+        padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .traveler .img-box img {
+        width: 180px !important;
+    }
+
+    .b-box {
+        .b-buttons {
+            padding: 10px;
+
+            .b1 {
+                margin-left: 0;
+            }
+        }
+
+    }
+
+    .traveler {
+        .txt-box {
+            width: 90%;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .boxes {
+        position: static !important;
+        flex-direction: column;
+        align-items: center;
+
+        .head-box {
+            width: 100%;
+        }
+    }
+
+    .info {
+        margin-top: 20px !important;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            gap: 45px !important;
+            margin: 10px;
+            width: 80%;
+            justify-content: space-around;
+
+            p{
+                width: 205px;
+            }
+        }
+    }
+
+    .traveler .img-box {
+        .img-line {
+            flex-direction: column;
+
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .b-txt {
+        margin-bottom: 30px;
+    }
+
+    .b-box {
+        .b-buttons {
+            padding: 0px !important;
+            width: 90%;
+            .b1 {
+                margin: 0 auto;
+            }
+
+            .b-l {
+                flex-direction: column;
+                align-items: center;
+
+                .b2, .b3, .b4 {
+                    margin: 10px;
+                }
+            }
+        }
+
+    }
+
+    .rent .img-box .img1 .b-img {
+        display: none;
+    }
+
+  }
 
 
