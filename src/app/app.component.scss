@@ -517,11 +517,23 @@
     .boxes {
         padding: 10px;
     }
+
+    .num {
+        font-size: 16px;
+    }
   }
 
   @media only screen and (max-width: 768px) {
     .traveler .img-box img {
         width: 180px !important;
+    }
+
+    .best {
+        padding: 55px 10px;
+    }
+
+    .b-txt .txt-box{
+        width: 90%;
     }
 
     .b-box {
@@ -539,6 +551,86 @@
         .txt-box {
             width: 90%;
         }
+    }
+
+    .top-car .box {
+        width: 97%
+    }
+
+    .car-box {
+        padding: 20px 15px;
+    
+        .cars {
+            display: flex;    
+        
+            .car {
+                .c1 {
+                    width: 100%;
+                    margin-bottom: 50px;
+                }
+    
+                .c2 {
+                    width: 100%;
+                    margin-left: 0 !important;
+                    margin-top: -15px;
+                    margin-bottom: 55px;
+                }
+    
+                .c3 {
+                    width: 100%;
+                    margin-top: -13px;
+                    margin-bottom: 70px;
+                }
+    
+                .c4 {
+                    width: 100%;
+                    margin-top: -85px;
+                    margin-bottom: 70px;
+                }
+    
+                .c5 {
+                    width: 100%;
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+
+    .rent { 
+        flex-direction: column;
+        padding: 60px 20px;
+        .img-box {
+            width: 90%;
+            height: unset !important;
+        }
+        .txt-box {
+            margin-top: 110%;
+            width: 100%;
+        }
+    }
+
+    .b-box {
+        .b-buttons {
+            padding: 0px !important;
+            width: 90%;
+            .b1 {
+                margin: 0 auto;
+            }
+
+            .b-l {
+                flex-direction: column;
+                align-items: center;
+
+                .b2, .b3, .b4 {
+                    margin: 10px;
+                }
+            }
+        }
+
+    }
+
+    .banner-box .head-box {
+        padding: 0 10px 10px;
     }
   }
 
@@ -582,26 +674,6 @@
 
     .b-txt {
         margin-bottom: 30px;
-    }
-
-    .b-box {
-        .b-buttons {
-            padding: 0px !important;
-            width: 90%;
-            .b1 {
-                margin: 0 auto;
-            }
-
-            .b-l {
-                flex-direction: column;
-                align-items: center;
-
-                .b2, .b3, .b4 {
-                    margin: 10px;
-                }
-            }
-        }
-
     }
 
     .rent .img-box .img1 .b-img {
